@@ -1,5 +1,9 @@
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
+        ## model solution
+        return (sorted(list(s)) == sorted(list(t)))
+    
+        ## my solution - solved but late
         if len(s) != len(t):
             return False
         l = list(t)
