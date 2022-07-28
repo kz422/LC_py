@@ -3,10 +3,10 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
-        ## model solution
+        ## other solution
         nums.sort(key=bool, reverse=True)
         
-        ## my solution - solved but late
+        ## my solution - solved
         if len(nums) == 1:
             nums = nums
         for i in range(len(nums)):
